@@ -1,0 +1,1128 @@
+{
+  "declaration": { "attributes": { "version": "1.0", "encoding": "UTF-8" } },
+  "root": {
+    "name": "CATALOG",
+    "attributes": {},
+    "children": [
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Empire Burlesque"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Bob Dylan"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "USA"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Columbia"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "10.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1985"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Hide your heart"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Bonnie Tyler"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "CBS Records"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "9.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1988"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Greatest Hits"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Dolly Parton"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "USA"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "RCA"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "9.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1982"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Still got the blues"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Gary Moore"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Virgin records"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "10.20"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1990"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Eros"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Eros Ramazzotti"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "EU"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "BMG"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "9.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1997"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "One night only"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Bee Gees"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Polydor"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "10.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1998"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Sylvias Mother"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Dr.Hook"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "CBS"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "8.10"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1973"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Maggie May"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Rod Stewart"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Pickwick"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "8.50"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1990"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Romanza"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Andrea Bocelli"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "EU"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Polydor"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "10.80"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1996"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "When a man loves a woman"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Percy Sledge"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "USA"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Atlantic"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "8.70"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1987"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Black angel"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Savage Rose"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "EU"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Mega"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "10.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1995"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "1999 Grammy Nominees"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Many"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "USA"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Grammy"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "10.20"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1999"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "For the good times"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Kenny Rogers"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Mucik Master"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "8.70"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1995"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Big Willie style"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Will Smith"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "USA"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Columbia"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "9.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1997"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Tupelo Honey"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Van Morrison"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Polydor"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "8.20"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1971"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Soulsville"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Jorn Hoel"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "Norway"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "WEA"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "7.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1996"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "The very best of"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Cat Stevens"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Island"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "8.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1990"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Stop"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Sam Brown"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "A and M"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "8.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1988"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Bridge of Spies"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "T'Pau"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Siren"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "7.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1987"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Private Dancer"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Tina Turner"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Capitol"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "8.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1983"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Midt om natten"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Kim Larsen"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "EU"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Medley"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "7.80"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1983"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Pavarotti Gala Concert"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Luciano Pavarotti"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "DECCA"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "9.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1991"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "The dock of the bay"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Otis Redding"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "USA"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Atlantic"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "7.90"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1987"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Picture book"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Simply Red"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "EU"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "Elektra"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "7.20"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1985"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Red"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "The Communards"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "UK"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "London"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "7.80"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1987"
+          }
+        ],
+        "content": ""
+      },
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Unchain my heart"
+          },
+          {
+            "name": "ARTIST",
+            "attributes": {},
+            "children": [],
+            "content": "Joe Cocker"
+          },
+          {
+            "name": "COUNTRY",
+            "attributes": {},
+            "children": [],
+            "content": "USA"
+          },
+          {
+            "name": "COMPANY",
+            "attributes": {},
+            "children": [],
+            "content": "EMI"
+          },
+          {
+            "name": "PRICE",
+            "attributes": {},
+            "children": [],
+            "content": "8.20"
+          },
+          {
+            "name": "YEAR",
+            "attributes": {},
+            "children": [],
+            "content": "1987"
+          }
+        ],
+        "content": ""
+      }
+    ],
+    "content": ""
+  }
+}

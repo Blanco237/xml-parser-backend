@@ -1,0 +1,23 @@
+{
+  "declaration": { "attributes": { "version": "1.0", "encoding": "UTF-8" } },
+  "root": {
+    "name": "CATALOG",
+    "attributes": {},
+    "children": [
+      {
+        "name": "CD",
+        "attributes": {},
+        "children": [
+          {
+            "name": "TITLE",
+            "attributes": {},
+            "children": [],
+            "content": "Empire Burlesque"
+          }
+        ],
+        "content": ""
+      }
+    ],
+    "content": ""
+  }
+}
