@@ -1,23 +1,767 @@
 {
-  "declaration": { "attributes": { "version": "1.0", "encoding": "UTF-8" } },
-  "root": {
-    "name": "CATALOG",
-    "attributes": {},
-    "children": [
-      {
-        "name": "CD",
-        "attributes": {},
+    "declaration": {
+        "attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "root": {
+        "name": "CATALOG",
         "children": [
-          {
-            "name": "TITLE",
-            "attributes": {},
-            "children": [],
-            "content": "Empire Burlesque"
-          }
-        ],
-        "content": ""
-      }
-    ],
-    "content": ""
-  }
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Empire Burlesque"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Bob Dylan"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "USA"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Columbia"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "10.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1985"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Hide your heart"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Bonnie Tyler"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "CBS Records"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "9.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1988"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Greatest Hits"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Dolly Parton"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "USA"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "RCA"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "9.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1982"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Still got the blues"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Gary Moore"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Virgin records"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "10.20"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1990"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Eros"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Eros Ramazzotti"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "EU"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "BMG"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "9.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1997"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "One night only"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Bee Gees"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Polydor"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "10.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1998"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Sylvias Mother"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Dr.Hook"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "CBS"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "8.10"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1973"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Maggie May"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Rod Stewart"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Pickwick"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "8.50"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1990"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Romanza"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Andrea Bocelli"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "EU"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Polydor"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "10.80"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1996"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "When a man loves a woman"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Percy Sledge"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "USA"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Atlantic"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "8.70"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1987"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Black angel"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Savage Rose"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "EU"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Mega"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "10.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1995"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "1999 Grammy Nominees"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Many"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "USA"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Grammy"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "10.20"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1999"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "For the good times"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Kenny Rogers"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Mucik Master"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "8.70"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1995"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Big Willie style"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Will Smith"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "USA"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Columbia"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "9.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1997"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Tupelo Honey"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Van Morrison"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Polydor"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "8.20"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1971"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Soulsville"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Jorn Hoel"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "Norway"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "WEA"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "7.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1996"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "The very best of"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Cat Stevens"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Island"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "8.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1990"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Stop"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Sam Brown"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "A and M"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "8.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1988"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Bridge of Spies"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "T'Pau"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Siren"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "7.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1987"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Private Dancer"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Tina Turner"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Capitol"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "8.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1983"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Midt om natten"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Kim Larsen"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "EU"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Medley"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "7.80"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1983"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Pavarotti Gala Concert"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Luciano Pavarotti"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "DECCA"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "9.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1991"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "The dock of the bay"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Otis Redding"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "USA"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Atlantic"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "7.90"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1987"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Picture book"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Simply Red"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "EU"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "Elektra"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "7.20"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1985"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Red"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "The Communards"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "UK"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "London"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "7.80"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1987"
+                    }
+                ]
+            },
+            {
+                "name": "CD",
+                "children": [
+                    {
+                        "name": "TITLE",
+                        "content": "Unchain my heart"
+                    },
+                    {
+                        "name": "ARTIST",
+                        "content": "Joe Cocker"
+                    },
+                    {
+                        "name": "COUNTRY",
+                        "content": "USA"
+                    },
+                    {
+                        "name": "COMPANY",
+                        "content": "EMI"
+                    },
+                    {
+                        "name": "PRICE",
+                        "content": "8.20"
+                    },
+                    {
+                        "name": "YEAR",
+                        "content": "1987"
+                    }
+                ]
+            }
+        ]
+    }
 }

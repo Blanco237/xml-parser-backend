@@ -1,192 +1,169 @@
 import re
+import json
 
-def parse(xml):
-    xml = xml.strip()
 
-    # strip comments
-    xml = re.sub(r"<!--[\s\S]*?-->", '', xml)
+class Parser:
+    def __init__(self, xml):
+        self.xml = xml
 
-    def document():
+    def parse(self):
+        self.xml = self.xml.strip()
+        self.xml = re.sub(r'<!--[\s\S]*?-->', '', self.xml)
+        return self.document()
+
+    def document(self):
         return {
-            'declaration': declaration(),
-            'root': tag()
+            "declaration": self.declaration(),
+            "root": self.tag()
         }
 
-    def declaration():
-        m = match(r"^<\?xml\s*")
+    def declaration(self):
+        m = self.match_func(r"^<\?xml\s*")
         if not m:
-            return None
+            return
 
+        # tag
         node = {
-            'attributes': {}
+            "attributes": {}
         }
 
-        while not (eos() or _is('?>')):
-            attr = attribute()
+        # attributes
+        while not (self.eos() or self.is_func('?>')):
+            attr = self.attribute_func()
             if not attr:
                 return node
-            node['attributes'][attr['name']] = attr['value']
+            node["attributes"][attr["name"]] = attr["value"]
 
-        match(r"\?>\s*")
+        self.match_func(r"\?>\s*")
+
+        if(len(node["attributes"]) == 0):
+            del node["attributes"]
 
         return node
 
-    def tag():
-        m = match(r"^<([\w-:.]+)\s*")
+    def tag(self):
+        m = self.match_func(r'^<([\w\-:.]+)\s*')
         if not m:
-            return None
+            return
 
+        # name
         node = {
-            'name': m[1],
-            'attributes': {},
-            'children': []
+            "name": m[1],
+            "attributes": {},
+            "children": []
         }
 
-        while not (eos() or _is('>') or _is('?>') or _is('/>')):
-            attr = attribute()
+        # attributes
+        while not (self.eos() or self.is_func('>') or self.is_func('?>') or self.is_func('/>')):
+            attr = self.attribute_func()
             if not attr:
                 return node
-            node['attributes'][attr['name']] = attr['value']
+            node["attributes"][attr["name"]] = attr["value"]
 
-        if match(r"^\s*/>\s*"):
+        # self closing tag
+        if self.match_func(r"^\s*\/>\s*"):
             return node
 
-        match(r"\??>\s*")
+        self.match_func(r">\s*")
 
-        node['content'] = content()
+        # content
+        node["content"] = self.content()
 
-        while True:
-            child = tag()
-            if not child:
-                break
-            node['children'].append(child)
+        # children
+        child = None
+        while child := self.tag():
+            node["children"].append(child)
 
-        match(r"^</[\w-:.]+>\s*")
+        # closing
+        self.match_func(r'^<\/([\w\-:.]+)\s*>\s*')
 
         return node
 
-    def content():
-        m = match(r"^([^<]*)")
+    def content(self):
+        m = self.match_func(r"^([^<]*)")
         if m:
             return m[1]
         return ''
 
-    def attribute():
-        m = match(r"([\w:-]+)\s*=\s*('[^']*'|\"[^\"]*\"|\w+)\s*")
+    def attribute_func(self):
+        m = self.match_func(r'([\w:-]+)\s*=\s*("[^"]*"|\'[^\']*\'|\w+)\s*')
         if not m:
-            return None
-        return {
-            'name': m[1],
-            'value': strip(m[2])
-        }
+            return
+        return {"name": m.group(1), "value": self.strip_func(m.group(2))}
 
-    def strip(val):
-        return re.sub(r"^['\"]|['\"]$", '', val)
+    def strip_func(self, val):
+        return re.sub(r"^['\"]|['\"]$", "", val)
 
-    def match(pattern):
-        nonlocal xml
-        m = re.match(pattern, xml)
+    def match_func(self, pattern):
+        m = re.match(pattern, self.xml)
         if not m:
-            return None
-        xml = xml[m.end():]
-        return m.groups()
+            return
+        self.xml = self.xml[m.end():]
 
-    def eos():
-        return len(xml) == 0
+        return m
 
-    def _is(prefix):
-        return xml.startswith(prefix)
-    
-    return document()
+    def eos(self):
+        return len(self.xml) == 0
 
+    def is_func(self, prefix):
+        return self.xml.startswith(prefix)
 
 
 content = '''
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <CATALOG>
-	<CD>
-		<TITLE>Empire Burlesque</TITLE>
-		<ARTIST>Bob Dylan</ARTIST>
-		<COUNTRY>USA</COUNTRY>
-		<COMPANY>Columbia</COMPANY>
-		<PRICE>10.90</PRICE>
-		<YEAR>1985</YEAR>
-	</CD>
-	<CD>
-		<TITLE>Hide your heart</TITLE>
-		<ARTIST>Bonnie Tyler</ARTIST>
-		<COUNTRY>UK</COUNTRY>
-		<COMPANY>CBS Records</COMPANY>
-		<PRICE>9.90</PRICE>
-		<YEAR>1988</YEAR>
-	</CD>
-	<CD>
-		<TITLE>Greatest Hits</TITLE>
-		<ARTIST>Dolly Parton</ARTIST>
-		<COUNTRY>USA</COUNTRY>
-		<COMPANY>RCA</COMPANY>
-		<PRICE>9.90</PRICE>
-		<YEAR>1982</YEAR>
-	</CD>
-	<CD>
-		<TITLE>Still got the blues</TITLE>
-		<ARTIST>Gary Moore</ARTIST>
-		<COUNTRY>UK</COUNTRY>
-		<COMPANY>Virgin records</COMPANY>
-		<PRICE>10.20</PRICE>
-		<YEAR>1990</YEAR>
-	</CD>
-	<CD>
-		<TITLE>Eros</TITLE>
-		<ARTIST>Eros Ramazzotti</ARTIST>
-		<COUNTRY>EU</COUNTRY>
-		<COMPANY>BMG</COMPANY>
-		<PRICE>9.90</PRICE>
-		<YEAR>1997</YEAR>
-	</CD>
-	<CD>
-		<TITLE>One night only</TITLE>
-		<ARTIST>Bee Gees</ARTIST>
-		<COUNTRY>UK</COUNTRY>
-		<COMPANY>Polydor</COMPANY>
-		<PRICE>10.90</PRICE>
-		<YEAR>1998</YEAR>
-	</CD>
-	<CD>
-		<TITLE>Sylvias Mother</TITLE>
-		<ARTIST>Dr.Hook</ARTIST>
-		<COUNTRY>UK</COUNTRY>
-		<COMPANY>CBS</COMPANY>
-		<PRICE>8.10</PRICE>
-		<YEAR>1973</YEAR>
-	</CD>
-	<CD>
-		<TITLE>Maggie May</TITLE>
-		<ARTIST>Rod Stewart</ARTIST>
-		<COUNTRY>UK</COUNTRY>
-		<COMPANY>Pickwick</COMPANY>
-		<PRICE>8.50</PRICE>
-		<YEAR>1990</YEAR>
-	</CD>
-	<CD>
-		<TITLE>Romanza</TITLE>
-		<ARTIST>Andrea Bocelli</ARTIST>
-		<COUNTRY>EU</COUNTRY>
-		<COMPANY>Polydor</COMPANY>
-		<PRICE>10.80</PRICE>
-		<YEAR>1996</YEAR>
-	</CD>
-	<CD>
-		<TITLE>When a man loves a woman</TITLE>
-		<ARTIST>Percy Sledge</ARTIST>
-		<COUNTRY>USA</COUNTRY>
-		<COMPANY>Atlantic</COMPANY>
-		<PRICE>8.70</PRICE>
-		<YEAR>1987</YEAR>
-	</CD>
+    <CD>
+        <TITLE>Empire Burlesque</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>Columbia</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>1985</YEAR>
+    </CD>
+    <CD>
+        <TITLE>Hide your heart</TITLE>
+        <ARTIST>Bonnie Tyler</ARTIST>
+        <COUNTRY>UK</COUNTRY>
+        <COMPANY>CBS Records</COMPANY>
+        <PRICE>9.90</PRICE>
+        <YEAR>1988</YEAR>
+    </CD>
 </CATALOG>
 '''
 
-print(parse(content))
+
+def remove_empty_values(dictionary):
+    if len(dictionary) == 0:
+        print('None found', dictionary)
+        return None
+    
+    if not isinstance(dictionary, dict):
+        if isinstance(dictionary, list):
+            cleaned_list = []
+            for item in dictionary:
+                cleaned_item = remove_empty_values(item)
+                if cleaned_item:
+                    cleaned_list.append(cleaned_item)
+            return cleaned_list
+        else:
+            return dictionary
+    
+    result = {}
+    for key, value in dictionary.items():
+        cleaned_value = remove_empty_values(value)
+        if cleaned_value:
+            result[key] = cleaned_value
+    
+    return result
+
+
+xml_parser = Parser(content)
+
+output = xml_parser.parse()
+print(output)
+
+cleaned_output = remove_empty_values(output)
+
+with open("output.json", "w") as file:
+    # Write the content to the file with indentation
+    file.write(json.dumps(cleaned_output, indent=4))
